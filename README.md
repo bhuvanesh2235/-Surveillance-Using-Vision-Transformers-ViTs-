@@ -106,7 +106,7 @@ In the ever-evolving landscape of security and surveillance, the need for intell
 ## ⚙️ Working of My Project
 
 The current project enhances retail surveillance by processing uploaded videos through a **Google Colab-based system**.  
-Users upload videos via a **Streamlit web interface**, which triggers the `EnhancedRetailSurveillanceSystem` to analyze up to **100 frames** using **VideoMAE**.  
+Users upload videos via a **Streamlit web interface**, which triggers the `EnhancedRetailSurveillanceSystem` to analyze the frames using **VideoMAE**.  
 
 - 🧍 **Person Detection**: Detected using HOG and motion-based methods  
 - 🧭 **Tracking**: Implemented with a custom `PersonTracker`  
@@ -122,14 +122,6 @@ Users upload videos via a **Streamlit web interface**, which triggers the `Enhan
 - Detected actions & statistics (e.g., "Violence Detected")  
 - Results saved to **Google Drive**  
 - Displayed on the Streamlit dashboard as **"Normal" or "Violence Detected"**
-
-
-## 🧠 What We Learnt
-
-- ✅ Basics of Machine Learning (ML) & Deep Learning (DL)  
-- 🧠 Neural Networks  
-- 🔄 Transformer Architecture  
-- 👁️‍🗨️ Fundamentals of Computer Vision  
 
 ---
 
