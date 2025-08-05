@@ -80,7 +80,7 @@ In the ever-evolving landscape of security and surveillance, the need for intell
   
 - 🔳 **Model Training and Testing Outputs**
 
-  ![Training Screenshot](https://github.com/bhuvanesh2235/-Surveillance-Using-Vision-Transformers-ViTs-/blob/main/Images/Data%20Training.png)
+  ![Training Screenshot](https://github.com/bhuvanesh2235/-Surveillance-Using-Vision-Transformers-ViTs-/blob/main/Images/Model%20Training.png)
   
 - 🛠️ **Model Working**
       
