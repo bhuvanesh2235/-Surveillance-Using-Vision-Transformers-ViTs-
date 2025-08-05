@@ -84,11 +84,6 @@ In the ever-evolving landscape of security and surveillance, the need for intell
   
 - 🛠️ **Model Working**
       
-  ![People Fighting Screenshot 1](https://github.com/bhuvanesh2235/-Surveillance-Using-Vision-Transformers-ViTs-/blob/main/Images/Model%20Working%201.png)
-
-     💥 People fighting – Skeleton overlay detection
-
-  ![People Fighting Screenshot 2](https://github.com/bhuvanesh2235/-Surveillance-Using-Vision-Transformers-ViTs-/blob/main/Images/Model%20Working%202.png)
       
 
 ---
@@ -101,6 +96,27 @@ In the ever-evolving landscape of security and surveillance, the need for intell
 - Person classification in video streams
 
 ---
+
+## ⚙️ Working of My Project
+
+The current project enhances retail surveillance by processing uploaded videos through a **Google Colab-based system**.  
+Users upload videos via a **Streamlit web interface**, which triggers the `EnhancedRetailSurveillanceSystem` to analyze up to **100 frames** using **VideoMAE**.  
+
+- 🧍 **Person Detection**: Detected using HOG and motion-based methods  
+- 🧭 **Tracking**: Implemented with a custom `PersonTracker`  
+- 🏷️ **Behavior Classification**: Uses a 16-frame buffer to classify behaviors into:  
+  - ✅ Normal  
+  - ❓ Suspicious  
+  - 😡 Aggressive  
+  - 💥 Violence  
+  - 🛍️ Theft  
+
+### ✅ Output:
+- Annotated frames with bounding boxes  
+- Detected actions & statistics (e.g., "Violence Detected")  
+- Results saved to **Google Drive**  
+- Displayed on the Streamlit dashboard as **"Normal" or "Violence Detected"**
+
 
 ## 🧠 What We Learnt
 
@@ -123,12 +139,10 @@ Vision Transformers (ViTs) offer a powerful approach for modern video surveillan
 ---
 
 ## 🔮 Future Works
-
-- 🎯 Real-time person tracking and classification with bounding boxes  
+ 
 - 🔄 Continuous model refinement for surveillance  
 - 📡 Integration with smart alert systems  
 - 🔐 Strong emphasis on ethical use and data privacy
-- 🥊 Action classification with bounding boxes
   
  ![Future Works Screenshot 1](https://github.com/bhuvanesh2235/-Surveillance-Using-Vision-Transformers-ViTs-/blob/main/Images/Future%20Works%201.png)
 
@@ -141,8 +155,7 @@ Vision Transformers (ViTs) offer a powerful approach for modern video surveillan
 
 ## 🌍 Possible Future Scope
 
-- Enhanced anomaly detection in complex environments  
-- Custom action recognition for retail security  
+- Enhanced anomaly detection in complex environments    
 - Integration with retail POS and inventory systems  
 - Real-time alerts for ORC and in-store violence  
 - User-friendly dashboards for monitoring  
